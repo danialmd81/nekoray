@@ -16,6 +16,8 @@ if (WIN32)
 endif ()
 
 # Find Qt
+list(APPEND CMAKE_PREFIX_PATH "/usr/lib/x86_64-linux-gnu/cmake")
+list(APPEND CMAKE_PREFIX_PATH "$ENV{HOME}/Qt/5.15.2/gcc_64/lib/cmake")
 if (NOT QT_VERSION_MAJOR)
     set(QT_VERSION_MAJOR 5)
 endif ()

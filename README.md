@@ -1,24 +1,20 @@
 # NekoBox For PC
 
-Qt based cross-platform GUI proxy configuration manager (backend: sing-box)
+Qt-based cross-platform GUI proxy configuration manager (backend: sing-box)
 
-Support Windows / Linux out of the box now.
+Now supports Windows / Linux out of the box.
 
-基于 Qt 的跨平台代理配置管理器 (后端 sing-box)
-
-目前支持 Windows / Linux 开箱即用
-
-## 下载 / Download
+## Download
 
 ### GitHub Releases (Portable ZIP)
 
-便携格式，无安装器。转到 Releases 下载预编译的二进制文件，解压后即可使用。
+Portable format, no installer. Go to Releases to download the precompiled binaries, extract and use.
 
 [![GitHub All Releases](https://img.shields.io/github/downloads/Matsuridayo/nekoray/total?label=downloads-total&logo=github&style=flat-square)](https://github.com/Matsuridayo/nekoray/releases)
 
-[下载 / Download](https://github.com/Matsuridayo/nekoray/releases)
+[Download](https://github.com/Matsuridayo/nekoray/releases)
 
-[安装包的说明，如果你不知道要下载哪一个](https://github.com/MatsuriDayo/nekoray/wiki/Installation-package-description)
+[Description of installation packages, if you don't know which one to download](https://github.com/MatsuriDayo/nekoray/wiki/Installation-package-description)
 
 ### Package
 
@@ -36,15 +32,15 @@ Support Windows / Linux out of the box now.
 
 `scoop install nekoray`
 
-## 更改记录 & 发布频道 / Changelog & Telegram Channel
+## Changelog & Telegram Channel
 
-https://t.me/Matsuridayo
+<https://t.me/Matsuridayo>
 
-## 项目主页 & 文档 / Homepage & Documents
+## Homepage & Documents
 
-https://matsuridayo.github.io
+<https://matsuridayo.github.io>
 
-## 代理 / Proxy
+## Proxy
 
 - SOCKS (4/4a/5)
 - HTTP(S)
@@ -52,39 +48,37 @@ https://matsuridayo.github.io
 - VMess
 - VLESS
 - Trojan
-- TUIC ( sing-box )
-- NaïveProxy ( Custom Core )
-- Hysteria2 ( Custom Core or sing-box )
+- TUIC (sing-box)
+- NaïveProxy (Custom Core)
+- Hysteria2 (Custom Core or sing-box)
 - Custom Outbound
 - Custom Config
 - Custom Core
 
-## 订阅 / Subscription
+## Subscription
 
-- Raw: some widely used formats (like Shadowsocks, Clash and v2rayN)
-- 原始格式: 一些广泛使用的格式 (如 Shadowsocks、Clash 和 v2rayN)
+- Raw: some widely used formats (like Shadowsocks, Clash, and v2rayN)
+- Original formats: some widely used formats (such as Shadowsocks, Clash, and v2rayN)
 
-## 运行参数
+## Run Flags
 
-[运行参数](docs/RunFlags.md)
+[Run Flags](docs/RunFlags.md)
 
-## Windows 运行
+## Running on Windows
 
-若提示 DLL 缺失，无法运行，请下载 安装 [微软 C++ 运行库](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+If you are prompted that DLLs are missing and cannot run, please download and install the [Microsoft C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
-## Linux 运行
+## Running on Linux
 
-[Linux 运行教程](docs/Run_Linux.md)
+[Linux Running Guide](docs/Run_Linux.md)
 
-## 编译教程 / Compile Tutorial
+## Compile Tutorial
 
-请看 [技术文档 / Technical documentation](https://github.com/MatsuriDayo/nekoray/tree/main/docs)
+See [Technical documentation](https://github.com/MatsuriDayo/nekoray/tree/main/docs)
 
-## 捐助 / Donate
+## Donate
 
-如果这个项目对您有帮助，可以通过捐赠的方式帮助我们维持这个项目。
-
-捐赠满等额 50 USD 可以在「[捐赠榜](https://mtrdnt.pages.dev/donation_list)」显示头像，如果您未被添加到这里，欢迎联系我们补充。
+If this project is helpful to you, you can help us maintain it by donating.
 
 Donations of 50 USD or more can display your avatar on the [Donation List](https://mtrdnt.pages.dev/donation_list). If you are not added here, please contact us to add it.
 
